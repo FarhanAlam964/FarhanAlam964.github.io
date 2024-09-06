@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Nav-logo{
+    width: 50px;
+    border-radius: 15px;
+    background-color: green;
+    margin: 10px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    border-radius: 10px;
+}
+
+body{
+    font-family: "Montserrat" , sans-serif;
+}
+
+.memberBtn{
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+.memberBtn:hover{
+    background-color: hsl(0, 0%, 70%);
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: green;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+
+.link-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    background-color: green;
+}
+
+#links{
+    color: white;
+}
+
+.Copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+}
+
+/* Dropdown Button */
+.dropbtnTwo {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtnTwo:hover, .dropbtn:focus {
+    background-color: green;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdownTwo {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-contentTwo {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-contentTwo a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-contentTwo a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+}
+
+.UserInput{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.PassInput{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.loginBtn{
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    transition: ease-out 0.3s;
+    cursor: pointer;
+}
+
+.loginBtn:hover{
+    background-color: red;
+}
